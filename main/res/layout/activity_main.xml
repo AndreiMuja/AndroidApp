@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.andreimuja.bilet1.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/indexNou"
+        android:text="@string/indexNou"
+        android:layout_centerHorizontal="true"
+        android:onClick="indexNou"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/istoricIndecsi"
+        android:text="@string/istoricIndecsi"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/indexNou"
+        android:onClick="istoricIndescsi"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Grafic"
+        android:text="@string/grafic"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/istoricIndecsi"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/json"
+        android:text="@string/preluareJSON"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Grafic"
+        android:onClick="preluare"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/despre"
+        android:text="@string/despre"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/json"
+        android:onClick="despre"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textDespre"
+        android:text="@string/dreptAutor"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Bilet1</string>
+    <string name="indexNou">Index Nou</string>
+    <string name="istoricIndecsi">Istoric Indecsi</string>
+    <string name="grafic">Grafic</string>
+    <string name="preluareJSON">Preluare JSON</string>
+    <string name="despre">Despre</string>
+    <string name="dreptAutor">Muja Andrei 2016</string>
+    <string name="nume">Nume</string>
+    <string name="hintNr">NrKilowati</string>
+    <string name="citit">Citit</string>
+    <string name="estimat">Estimat</string>
+    <string name="adauga">Adauga</string>
+    <string name="eroareDate">Eroare date la preluare</string>
+    <string name="tipInregistrare">tip inregistrare: </string>
+    <string name="data">Data: </string>
+    <string name="anunt">Anunt despre</string>
+    <string name="eroarePreluateDeja">eroare preluate deja</string>
+    <string name="numarKilowati">nr Kilowati: </string>
+    <string name="confirmareAdaugat">Confirmare adaugat</string>
+</resources>
