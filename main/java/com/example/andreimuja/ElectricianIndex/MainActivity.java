@@ -1,4 +1,4 @@
-package com.example.andreimuja.bilet1;
+package com.example.andreimuja.electricianIndex;
 
 import android.content.Context;
 import android.content.Intent;
