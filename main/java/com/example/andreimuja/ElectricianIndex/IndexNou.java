@@ -1,4 +1,4 @@
-package com.example.andreimuja.bilet1;
+package com.example.andreimuja.electricianIndex;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
